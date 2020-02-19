@@ -64,8 +64,14 @@ def reduce_to_total(source_array)
 end 
 
 def reduce_to_all_true(source_array) 
-  truthy = []
-  
-  source_array.length do 
-    if 
+  i = 0 
+  truthy = true 
+  while i < source_array.length do 
+    if source_array[i] == false 
+      return false
+    end 
+    i += 1 
+  end 
+  truthy
 end 
+
