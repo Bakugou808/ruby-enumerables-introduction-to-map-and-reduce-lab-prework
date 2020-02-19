@@ -60,7 +60,7 @@ def reduce_to_total(source_array, starting_point)
     total += source_array[i]
     i += 1 
   end 
-  if starting_point
+  if starting_point == true 
     return total + starting_point
   else 
     return total 
