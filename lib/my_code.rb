@@ -52,7 +52,7 @@ end
 
 
 def reduce_to_total(source_array, starting_point=0) 
-  total = 0 
+  total = starting_point 
   
   i = 0 
   
@@ -60,10 +60,8 @@ def reduce_to_total(source_array, starting_point=0)
     total += source_array[i]
     i += 1 
   end 
-  total2 = total + starting_point
   
-  total2  
-  
+  total  
   
 end 
 
