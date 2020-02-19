@@ -75,3 +75,6 @@ def reduce_to_all_true(source_array)
   truthy
 end 
 
+def reduce_to_any_true(source_array) 
+  
+end 
